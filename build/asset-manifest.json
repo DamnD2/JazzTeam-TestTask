@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.384255a0.chunk.css",
+    "main.js": "/static/js/main.a06e1246.chunk.js",
+    "main.js.map": "/static/js/main.a06e1246.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.be2bae25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.be2bae25.js.map",
+    "static/js/2.19137dc0.chunk.js": "/static/js/2.19137dc0.chunk.js",
+    "static/js/2.19137dc0.chunk.js.map": "/static/js/2.19137dc0.chunk.js.map",
+    "static/js/3.0f9fb3d0.chunk.js": "/static/js/3.0f9fb3d0.chunk.js",
+    "static/js/3.0f9fb3d0.chunk.js.map": "/static/js/3.0f9fb3d0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.384255a0.chunk.css.map": "/static/css/main.384255a0.chunk.css.map",
+    "static/js/2.19137dc0.chunk.js.LICENSE.txt": "/static/js/2.19137dc0.chunk.js.LICENSE.txt",
+    "static/media/JazzTeam.7f333714.png": "/static/media/JazzTeam.7f333714.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be2bae25.js",
+    "static/js/2.19137dc0.chunk.js",
+    "static/css/main.384255a0.chunk.css",
+    "static/js/main.a06e1246.chunk.js"
+  ]
+}
