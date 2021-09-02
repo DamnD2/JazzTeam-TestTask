@@ -1,0 +1,19 @@
+.table__data-text{
+  white-space: nowrap;
+}
+
+.table-data{
+  white-space: nowrap;
+}
+
+.table-edit{
+  margin-right: 15px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.table-input{
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid #838383;
+}

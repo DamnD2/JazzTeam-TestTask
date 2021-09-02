@@ -12,6 +12,7 @@ import Profile from '../../components/Profile/Profile';
 import { getCookieValue } from '../../utils/utils';
 import logo from './logo192.png';
 import './App.css';
+import Table from '../../components/Table/Table';
 
 const App = () => {
   const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
@@ -40,6 +41,11 @@ const App = () => {
               <li className='menu__list-item'>
                 <Link className='menu__list-link' to={isUserLoggedIn ? '/profile' : '/authorization'}>Profile</Link>
               </li>
+              {isUserLoggedIn && (
+                <li className='menu__list-item'>
+                  <Link className='menu__list-link' to='/table'>Table</Link>
+                </li>
+              )}
             </div>
             {isUserLoggedIn
               ? <p className='user-name'>{userName}</p>
@@ -60,6 +66,9 @@ const App = () => {
           </Route>
           <Route path='/profile'>
             <Profile />
+          </Route>
+          <Route path='/table'>
+            <Table />
           </Route>
           <Route path='/authorization'>
             <Authorization setIsUserLoggedIn={setIsUserLoggedIn} setUserName={setUserName} />
